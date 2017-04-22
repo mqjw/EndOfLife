@@ -19,6 +19,7 @@ body{
 	font-family: "Microsoft Jhenghei","Hiragino Sans GB","Microsoft YaHei",sans-serif;
 }
 .main-center{
+	position: relative;
 	display: inline-block;
 	width: 768px;
 	margin: 0 auto;
@@ -51,14 +52,14 @@ header{
 	background: #3ac19f;
 	color: #FFF;
 	text-align: center;
-	padding: 40px 10px 10px;
+	padding: 20px 10px 10px;
 	user-select: none; 
 }
 .header-logo{
 	height: 120px;
 	width: 120px;
 	border-radius: 50%;
-	margin: 10px 0 0 0;
+	margin: 30px 0 0 0;
 }
 .header-sitename{
 	font-size: 35px;
@@ -101,6 +102,35 @@ header{
 }
 .header-callme a i{
 	font-size: 24px;
+}
+.header-menubtn{
+	position: absolute;
+	top: 0;
+	left: 10px;
+	line-height: 1;
+}
+.header-menubtn i{
+	font-size: 32px;
+}
+.header-weather{
+	position: absolute;
+	top: 0;
+	right: 0;
+	line-height: 1.2;
+}
+.weather-t1{
+	font-size: 24px;
+}
+.weather-t2{
+	font-size: 14px;
+	margin-left: -22px;
+}
+.weather-t1:after,.weather-t2:after{
+	content: "°";
+}
+.weather-city{
+	font-size: 18px;
+	line-height: 1.4;
 }
 nav{
 	font-size: 16px;
