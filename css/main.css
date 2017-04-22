@@ -1,4 +1,4 @@
-
+/*
 	File:main.css
 	Description: 主要样式文件
 */
@@ -157,7 +157,6 @@ nav a{
 	transition: all .2s;
 }
 
-
 /*头部样式结束*/
 
 /*文章样式开始*/
@@ -251,4 +250,4 @@ article{
 	}
 }
 
-/*动画库结束
+/*动画库结束*/
