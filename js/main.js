@@ -21,4 +21,13 @@ function getWeather(){
 	},'JSON');
 }
 
+
+// 一言事件
+function getHitokoto(){
+	$.post("https://sslapi.hitokoto.cn",null,function(e){
+		$(".header-siteinfo").html(e.hitokoto+" —— <strong>"+e.from+"</strong>");
+	},'JSON');
+}
+
 getWeather();
+getHitokoto();
